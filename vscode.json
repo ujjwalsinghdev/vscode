@@ -1,10 +1,8 @@
 {
     "git.enabled": false,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-
-
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "files.autoSave": "afterDelay",
     "emmet.includeLanguages": {
@@ -14,11 +12,11 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.settings.editor": "ui",
     "[css]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "window.zoomLevel": 0,
     "[json]": {
@@ -29,8 +27,7 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "prettier.semi": false,
-    "explorer.confirmDelete": false
-
-    
+    "explorer.confirmDelete": false,
+    "prettier.printWidth": 150,
+    "prettier.trailingComma": "none"
 }
-
